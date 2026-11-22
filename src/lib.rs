@@ -2,6 +2,11 @@
 //!
 //! A 100% Safe Rust (`#![forbid(unsafe_code)]`) drop-in translation of [picojson](https://github.com/kazuho/picojson).
 //! Zero external dependencies, zero unsafe blocks, zero manual pointer/heap allocations.
+//!
+//! ## License & Attribution
+//! - Original C++ picojson Copyright (c) 2009-2010 Cybozu Labs, Inc., Copyright (c) 2011-2014 Kazuho Oku
+//! - Safe Rust Translation & Modernization Copyright (c) 2026 CobolIQ / DecodeIQ Authors (<https://coboliq.com>, <https://github.com/coboliqcom>)
+//! - Licensed under the 2-Clause BSD License. See `LICENSE` for details.
 
 #![forbid(unsafe_code)]
 #![warn(missing_docs)]
