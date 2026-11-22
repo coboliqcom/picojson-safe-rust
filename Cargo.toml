@@ -1,0 +1,12 @@
+[package]
+name = "picojson-safe-rust"
+version = "0.1.0"
+edition = "2021"
+authors = ["CobolIQ / DecodeIQ High-Assurance Systems Team"]
+license = "BSD-2-Clause"
+description = "100% Safe Rust (#![forbid(unsafe_code)]) drop-in translation of picojson. Zero dependencies, zero unsafe."
+repository = "https://github.com/coboliqcom/picojson-safe-rust"
+keywords = ["json", "parser", "safe-rust", "picojson", "no-unsafe"]
+categories = ["parser-implementations", "encoding"]
+
+[dependencies]
